@@ -3,8 +3,17 @@ import { ref } from 'vue'
 import bgProfile from '@/assets/images/bg-profile-d.jpg'
 import bgProfileDark from '@/assets/images/bg-profile-dark.jpg'
 import profile from '@/assets/images/profile.jpeg'
+import pdfcv from '@/assets/cv-english.pdf'
 let skills = ref(['Laravel', 'Vue', 'Python', 'SQL', 'Open CV', 'Cypress'])
-
+const downloadPdf = () => {
+      const link = document.createElement('a');
+      link.href = pdfcv;
+      link.target = '_blank';
+      link.download = 'cvgarcialorenzo.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
 </script>
 <template>
     <div class="w-full bg-white rounded-lg flex flex-col md:mr-auto
@@ -27,7 +36,7 @@ let skills = ref(['Laravel', 'Vue', 'Python', 'SQL', 'Open CV', 'Cypress'])
             <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
                 v-for="skill in skills">{{ skill }}</span>
         </div>
-        <button
+        <button @click="downloadPdf"
             class="m-5 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             {{ $t('download-title') }} CV
             <fa icon="download" />
