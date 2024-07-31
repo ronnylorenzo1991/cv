@@ -14,5 +14,12 @@
     "relocation": "yes",
     "contact-title": "contact",
     "phone-title": "phone",
-    "projects-title": "projects"
+    "projects-title": "projects",
+    "cv-name": "Curriculum Vitae",
+    "cv-description": "Project with a straightforward template, featuring a set of responsive components and support for multiple languages. It utilizes Vite as the build tool, Vue’s composition API for a more modular structure, and offers a pleasant and simple design. You can use this repository as a starting point for your medium or large projects.",
+    "ulau-name": "Turn Management",
+    "ulau-description": "Shift Management Project with Attractive and Dynamic Interface A project that utilizes libraries like fullCalendar to create an appealing and dynamic interface for managing shifts. It’s divided into two parts: Frontend and Backend, making deployment and future modifications easier.",
+    "flask-name": "Api Flask",
+    "flask-description": "The API is developed using the Python Microframework Flask, following an MVC structure. It includes socketio and OpenCV for applications related to Computer Vision and image streaming",
+    "download-title": "download"
 }

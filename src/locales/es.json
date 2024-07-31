@@ -15,5 +15,12 @@
     "relocation": "si",
     "contact-title": "contacto",
     "phone-title": "teléfono",
-    "projects-title": "proyectos"
+    "projects-title": "proyectos",
+    "cv-name": "Curriculum Vitae",
+    "cv-description": "Proyecto de curriculum vitae con plantilla sencilla, con un conjunto de componentes responsivos y soporte para multiples idiomas. Además, utiliza Vite como herramienta de construcción, la API de composición de Vue para una estructura más modular, y ofrece un diseño agradable y sencillo. Puedes usar este repositorio como punto de partida para tus proyectos medianos o grandes.",
+    "ulau-name": "Gestión de Turnos",
+    "ulau-description": "Proyecto de Gestión de turnos con interfáz atractiva y dinámica, utilizando librerias como fullCalendar. Múltiples componentes y dividida en 2 partes, Frontend y Backend para facilitar el despliegue y las futuras modificaciones.",
+    "flask-name": "Api Flask",
+    "flask-description": "Api desarrollada con el Microframework Flask de python, con estructura MVC. Incluye socketio y opencv para aplicaciones de Visión Artificial y streaming de las imágenes.",
+    "download-title": "descargar"
 }

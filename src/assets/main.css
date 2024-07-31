@@ -1,4 +1,4 @@
-@import './base.css';
+/* @import './base.css'; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,19 +10,12 @@
   font-weight: normal;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: rgb(77, 73, 73);
-  transition: 0.4s;
-  padding: 3px;
+html.dark {
+  color-scheme: dark;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(234, 75%, 52%, 0.445);
-    color: white;
-  }
+body {
+  @apply dark:bg-slate-800 dark:text-slate-50
 }
 
 
